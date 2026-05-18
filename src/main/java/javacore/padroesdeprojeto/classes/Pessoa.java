@@ -105,7 +105,7 @@ public class Pessoa {
             return this;
         }
 
-        public Pessoa criarPessoa () {
+        public Pessoa build() {
             return new Pessoa(nome, ultimoNome, nomeDoMeio, apelido, nomeDaMae);
         }
     }
